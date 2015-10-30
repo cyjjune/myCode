@@ -1,0 +1,13 @@
+import random
+#P is the number of random points
+P=10000
+#N is the number of points in the circle
+N=0.
+for i in range(P):
+    x=random.uniform(-1,1)
+    y=random.uniform(-1,1)
+    if (x*x+y*y)<1:
+        N=N+1
+pi=4*N/P
+    
+print pi

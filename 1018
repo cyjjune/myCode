@@ -1,0 +1,8 @@
+import random
+s=0.0
+a=[]
+a=a+[random.uniform(0.0,100.0)]
+for i in range(20):
+    s=s+a[i]
+    avg=s/len(20)
+print avg

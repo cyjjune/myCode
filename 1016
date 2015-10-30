@@ -1,0 +1,16 @@
+a=[ ]
+
+num=3
+while len(a)<100:
+    prime=True
+    for b in range(2,num):
+        if(num%b==0):
+            prime=False    
+
+    if prime:
+        a=len(a)+[num]
+        num=num+1
+
+print a
+
+

@@ -1,0 +1,20 @@
+class Pet:
+
+    numSpe=0
+
+    def __init__(self,n1):
+        self.speciesname=n1
+
+        Pet.numSpe=Pet.numSpe+1
+
+    def intro(self):
+        print self.SpeciesName()+"Bowwow"+self.speciesname+"Meow"
+
+        
+
+
+p1=Pet("DOG")
+p2=Pet("CAT")
+
+p2.intro(p1)
+print Pet.numSpe
